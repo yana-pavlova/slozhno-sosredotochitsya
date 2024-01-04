@@ -8,4 +8,8 @@
   --background-accent-color: #FF0070;
   --text-color: #F1B2CE;
   --text-accent-color: #000028;
+  --logo-color: #db00ff;
+  --heading-color: #000028;
+  --header-menu-color: #FF0070;
+  --header-menu-hover-color: rgba(255, 0, 112, 0.40);
 }

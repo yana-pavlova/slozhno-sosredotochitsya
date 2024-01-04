@@ -13,31 +13,14 @@
   --background-accent-color: #FF8DCB;
   --text-color: #353430;
   --text-accent-color: #353430;
-  
-  background-image: url(/images/cover-image-light.png);
+  --logo-color: #FFC2E6;
+  --heading-color: #353430;
+  --header-menu-color: #353430;
+  --header-menu-hover-color: rgba(50, 49, 45, 0.40);
 
-  .header__theme-menu {
-    color: var(--text-color, #353430);
-  }
-  .header__heading, .footer-logo {
-    color: #FFC2E6;
-  }
-  .accent-header-heading {
-    color: var(--text-color, #353430);
-  }
+  background-image: url(/images/cover-image-light.png);
+}
+
   .header__decorated-element {
     display: none;
   }
-  .header__theme-menu-button_active {
-    outline-color: var(--text-color, #353430);
-  }
-  .main-heading, .accent-heading {
-    color: var(--text-color, #353430);
-  }
-  .header {
-    color: var(--text-color, #353430);
-  }
-  .header::before, .header::after, .footer::before, .footer::after {
-    border-color: var(--text-color, #353430);
-  }
-}
