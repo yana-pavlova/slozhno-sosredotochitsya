@@ -11,7 +11,7 @@
   font-size: 18px;
   line-height: 130%;
   background-color: var(--background-color, #000028);
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -88,7 +88,7 @@
 }
 
 .header__heading {
-  padding: 10vb 0 8.5vb 0;
+  padding: 10vb 0 8.3vb 0;
   color: var(--logo-color, #db00ff);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
@@ -237,10 +237,7 @@
 }
 
 .footer-heading {
-  color: var(--logo-color, #db00ff);
-  font-weight: bold;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 82.5%;
+  padding: 0;
   text-shadow: 2px 2px 0px #ff0070;
 }
 
@@ -271,7 +268,7 @@
 
   .accent-header-heading {
     align-self: flex-end;
-    margin-block-start: 7.4vb;
+    margin-block-start: 7.57vb;
     inline-size: calc(50vi - 20px);
   }
 
@@ -342,6 +339,10 @@
   .footer {
     min-block-size: calc(100vb - 40px);
   }
+
+  .footer-heading {
+    padding: 0.5vi 0 0 2.6vi;
+  }
 }
 
 @media (width >=1024px) {
@@ -364,7 +365,7 @@
   }
 
   .accent-header-heading {
-    margin-block-start: 6.4vb;
+    margin-block-start: 6.5vb;
   }
 
   .main__table:nth-child(1) {
@@ -426,5 +427,6 @@
 
   .footer-heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding: 0.2vi 0 0 2vi;
   }
 }
